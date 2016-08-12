@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: fedfbe32d9cbd0040b0761ccb27b0547
+timeCreated: 1455036783
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CINEMA_4D_Editor
+    100002: Fx_In
+    100004: Fx_Out
+    100006: //RootNode
+    100008: Fx_In_2
+    100010: Fx_Out_2
+    100012: Fx_In_Backed
+    100014: Fx_In_Backed_2
+    100016: Fx_Out_backed
+    100018: Fx_Out_backed_2
+    100020: Fx_InBacked
+    100022: Fx_OutBacked
+    100024: Fx_Inner
+    400000: CINEMA_4D_Editor
+    400002: Fx_In
+    400004: Fx_Out
+    400006: //RootNode
+    400008: Fx_In_2
+    400010: Fx_Out_2
+    400012: Fx_In_Backed
+    400014: Fx_In_Backed_2
+    400016: Fx_Out_backed
+    400018: Fx_Out_backed_2
+    400020: Fx_InBacked
+    400022: Fx_OutBacked
+    400024: Fx_Inner
+    2300000: Fx_In
+    2300002: Fx_Out
+    2300004: Fx_In_2
+    2300006: Fx_Out_2
+    2300008: Fx_In_Backed_2
+    2300010: Fx_Out_backed_2
+    2300012: Fx_InBacked
+    2300014: Fx_OutBacked
+    2300016: Fx_Inner
+    3300000: Fx_In
+    3300002: Fx_Out
+    3300004: Fx_In_2
+    3300006: Fx_Out_2
+    3300008: Fx_In_Backed_2
+    3300010: Fx_Out_backed_2
+    3300012: Fx_InBacked
+    3300014: Fx_OutBacked
+    3300016: Fx_Inner
+    4300000: Fx_Out
+    4300002: Fx_In
+    4300004: Fx_Out_2
+    4300006: Fx_In_2
+    4300008: Fx_Out_backed_2
+    4300010: Fx_In_Backed_2
+    4300012: Fx_InBacked
+    4300014: Fx_OutBacked
+    4300016: Fx_Inner
+    7400000: Basis
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Basis
+      takeName: Basis
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fx_In
+        weight: 1
+      - path: Fx_Inner
+        weight: 1
+      - path: Fx_Out
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

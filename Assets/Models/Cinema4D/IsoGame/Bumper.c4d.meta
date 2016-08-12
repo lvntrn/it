@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 2262b071681156f45a116f767d27dac3
+timeCreated: 1454977675
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bumper
+    100004: BumperMechanic
+    100006: Cap
+    100008: Cap_2
+    100010: CINEMA_4D_Editor
+    100012: Klon
+    100014: Rail_0
+    100016: Rail_1
+    100018: "R\xF6hre"
+    100020: Src
+    100022: Trigger
+    100024: Trigger_2
+    100026: "W\xFCrfel"
+    100028: Zylinder
+    100030: Zylinder_2
+    100032: BumperRig
+    100034: Cap_1
+    100036: Rail
+    100038: Trigger_1
+    100040: Zylinder_1
+    100042: Bumper__Coll
+    100044: Bumper_Coll
+    400000: //RootNode
+    400002: Bumper
+    400004: BumperMechanic
+    400006: Cap
+    400008: Cap_2
+    400010: CINEMA_4D_Editor
+    400012: Klon
+    400014: Rail_0
+    400016: Rail_1
+    400018: "R\xF6hre"
+    400020: Src
+    400022: Trigger
+    400024: Trigger_2
+    400026: "W\xFCrfel"
+    400028: Zylinder
+    400030: Zylinder_2
+    400032: BumperRig
+    400034: Cap_1
+    400036: Rail
+    400038: Trigger_1
+    400040: Zylinder_1
+    400042: Bumper__Coll
+    400044: Bumper_Coll
+    2300000: Bumper
+    2300002: Cap
+    2300004: Cap_2
+    2300006: Rail_0
+    2300008: Rail_1
+    2300010: "R\xF6hre"
+    2300012: Trigger
+    2300014: Trigger_2
+    2300016: "W\xFCrfel"
+    2300018: Zylinder
+    2300020: Zylinder_2
+    2300022: BumperRig
+    2300024: Cap_1
+    2300026: Rail
+    2300028: Trigger_1
+    2300030: Zylinder_1
+    2300032: Bumper__Coll
+    2300034: Bumper_Coll
+    3300000: Bumper
+    3300002: Cap
+    3300004: Cap_2
+    3300006: Rail_0
+    3300008: Rail_1
+    3300010: "R\xF6hre"
+    3300012: Trigger
+    3300014: Trigger_2
+    3300016: "W\xFCrfel"
+    3300018: Zylinder
+    3300020: Zylinder_2
+    3300022: BumperRig
+    3300024: Cap_1
+    3300026: Rail
+    3300028: Trigger_1
+    3300030: Zylinder_1
+    3300032: Bumper__Coll
+    3300034: Bumper_Coll
+    4300000: Trigger
+    4300002: Cap
+    4300004: "R\xF6hre"
+    4300006: Zylinder
+    4300008: "W\xFCrfel"
+    4300010: Cap_2
+    4300012: Bumper
+    4300014: Rail_0
+    4300016: Rail_1
+    4300018: Zylinder_2
+    4300020: Trigger_2
+    4300022: Cap_1
+    4300024: Zylinder_1
+    4300026: Trigger_1
+    4300028: Rail
+    4300030: BumperRig
+    4300032: Bumper__Coll
+    4300034: Bumper_Coll
+    7400000: Bump Down
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: Bumper
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bump Down
+      takeName: Basis
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bumper
+        weight: 1
+      - path: Bumper/BumperRig
+        weight: 1
+      - path: Bumper_Coll
+        weight: 0
+      - path: CINEMA_4D_Editor
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bumper
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

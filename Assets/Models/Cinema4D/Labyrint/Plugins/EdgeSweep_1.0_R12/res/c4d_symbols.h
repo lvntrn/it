@@ -1,0 +1,16 @@
+enum
+{
+	// string table definitions	
+	IDS_HLP_POS_TOOL_BASE = 10000,
+	IDS_POS_TOOL_BASE,
+	IDC_SERIALNUMBER,
+	DLG_REGISTER,
+	DLG_LISTVIEW,
+	GADGET_INSERT,
+	GADGET_REMOVE,
+	GADGET_LISTVIEW1,
+	GADGET_LISTVIEW2,
+
+// End of symbol definition
+  _DUMMY_ELEMENT_
+};

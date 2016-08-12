@@ -1,0 +1,8 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_HLP_POS_TOOL_BASE   	"EdgeSweep 1.0";	
+	IDS_POS_TOOL_BASE       	"EdgeSweep 1.0";
+}

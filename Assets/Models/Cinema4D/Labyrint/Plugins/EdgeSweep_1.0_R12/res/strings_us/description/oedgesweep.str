@@ -1,0 +1,29 @@
+STRINGTABLE Oedgesweep
+{
+	Oedgesweep								"EdgeSweep";
+
+	ES_EDGE_LINK					"Edge Selection";
+	ES_SWEEP_PROFILE				"Sweep profile";	
+	ES_SWEEP_OFFSET					"Sweep offset";
+	ES_BASIC_TAB					"Basic";
+	ES_SPLINE_TYPE					"Spline Type";
+	ES_SPLINE_POINTS				"Spline Intermediate Points";
+	TYPE_LINEAR						"linear";
+	TYPE_CUBIC						"cubic";
+	TYPE_AKIMA						"akima";
+	TYPE_BSPLINE					"b-spline";
+	TYPE_BEZIER						"bezier";
+	POINTS_NONE						"none";
+	POINTS_NATURAL					"narural";
+	POINTS_UNIFORM					"uniform";
+	POINTS_ADAPTIVE					"adaptive";
+	ES_SUBDIVISION					"HN-subdivision";
+	ES_SPLINE_CLOSED			 	"Close Spline";
+	ES_SPLINE_SUB					"Number";
+	ES_SPLINE_ANGLE					"Angle";
+	ES_SWEEP_START_GROWTH			"Sweep Start Growth";
+	ES_SWEEP_END_GROWTH				"Sweep End Growth";
+	ES_SWEEP_SCALE					"Sweep Scale";
+	ES_SWEEP_ROTATION				"Sweep Rotation";
+	ES_SWEEP_BANKING				"Banking";
+}
