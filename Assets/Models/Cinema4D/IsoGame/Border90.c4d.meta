@@ -8,15 +8,21 @@ ModelImporter:
     100000: //RootNode
     100002: Glass
     100004: Glass90
+    100006: Border90
+    100008: CINEMA_4D_Editor
     400000: //RootNode
     400002: Glass
     400004: Glass90
+    400006: Border90
+    400008: CINEMA_4D_Editor
     2300000: //RootNode
     2300002: Glass
     2300004: Glass90
+    2300006: Border90
     3300000: //RootNode
     3300002: Glass
     3300004: Glass90
+    3300006: Border90
     4300000: Border
     4300002: Glass
     4300004: Border90

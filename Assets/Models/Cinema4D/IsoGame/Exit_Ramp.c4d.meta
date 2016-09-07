@@ -12,6 +12,7 @@ ModelImporter:
     100008: Exit_Ramp
     100010: Exit_Ramp_Coll
     100012: Exit_Ramp_I
+    100014: CINEMA_4D_Editor
     400000: //RootNode
     400002: Indicator
     400004: ExitBonus
@@ -19,6 +20,7 @@ ModelImporter:
     400008: Exit_Ramp
     400010: Exit_Ramp_Coll
     400012: Exit_Ramp_I
+    400014: CINEMA_4D_Editor
     2300000: //RootNode
     2300002: Indicator
     2300004: ExitBonus

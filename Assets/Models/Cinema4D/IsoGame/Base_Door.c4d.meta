@@ -7,12 +7,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: Door
+    100004: Base_Door
+    100006: CINEMA_4D_Editor
     400000: //RootNode
     400002: Door
+    400004: Base_Door
+    400006: CINEMA_4D_Editor
     2300000: //RootNode
     2300002: Door
+    2300004: Base_Door
     3300000: //RootNode
     3300002: Door
+    3300004: Base_Door
     4300000: Base
     4300002: Base_Door
     4300004: Door

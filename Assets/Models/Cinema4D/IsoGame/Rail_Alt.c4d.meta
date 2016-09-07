@@ -19,6 +19,7 @@ ModelImporter:
     100022: Rail_Alt_90
     100024: Rail_Alt_90G
     100026: Rail_Alt_Ramp
+    100028: CINEMA_4D_Editor
     400000: Base
     400002: Base_1
     400004: Base_Rail
@@ -33,6 +34,7 @@ ModelImporter:
     400022: Rail_Alt_90
     400024: Rail_Alt_90G
     400026: Rail_Alt_Ramp
+    400028: CINEMA_4D_Editor
     2300000: Base
     2300002: Base_1
     2300004: Base_Rail

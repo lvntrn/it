@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{173FF7A5-C3EB-56DB-EDB2-94603F95888B}</ProjectGuid>
+    <ProjectGuid>{51013C95-023A-B1BF-64A2-4C4C034F8A7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -159,10 +159,10 @@
      <None Include="Assets\Plugins\SaveObject\Serializer\license.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/leaahlers/Desktop/Studium/Studium/4.Semester/IT/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/leaahlers/Desktop/Studium/Studium/4.Semester/IT_V02/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/leaahlers/Desktop/Studium/Studium/4.Semester/IT/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/leaahlers/Desktop/Studium/Studium/4.Semester/IT_V02/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -197,11 +197,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3FB3D406-0990-65B0-8F45-9318704076B7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{25A79A92-8F30-3EEE-BE5D-90C8EC0306F1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{1466783F-E631-5AE3-153F-F190BD170412}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{4CD706FB-CE56-75B3-F9AA-90BC5D215211}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{E967B9ED-9CE4-D640-D666-41514453259C}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{9E72DCD7-1214-E31E-D7CE-6E245BC4C542}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

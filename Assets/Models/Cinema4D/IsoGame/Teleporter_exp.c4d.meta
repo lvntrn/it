@@ -20,6 +20,7 @@ ModelImporter:
     100024: Sweep_I
     100026: Tele_exp_2_I
     100028: Teleport_exp_Coll
+    100030: CINEMA_4D_Editor
     400000: //RootNode
     400002: "Platonischer_K\xF6rper_1_2"
     400004: ExitA_I
@@ -35,6 +36,7 @@ ModelImporter:
     400024: Sweep_I
     400026: Tele_exp_2_I
     400028: Teleport_exp_Coll
+    400030: CINEMA_4D_Editor
     2300000: //RootNode
     2300002: "Platonischer_K\xF6rper_1_2"
     2300004: ExitA_I
