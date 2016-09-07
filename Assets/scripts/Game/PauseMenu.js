@@ -6,7 +6,7 @@ function Start(){
 	pauseEnabled = false;
 	Time.timeScale = 1;
 	AudioListener.volume = 1;
-	Cursor.visible = false;
+
 }
 
 function Update(){
