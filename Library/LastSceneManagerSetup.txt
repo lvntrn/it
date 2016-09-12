@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/SpaceBumb/SpaceBumb.unity
+- path: Assets/Scene/MainMenu/DyingMenu.unity
   isLoaded: 1
   isActive: 1

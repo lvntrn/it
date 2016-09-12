@@ -25,6 +25,8 @@ namespace Tetris {
 
         void Awake() {
             // Make this Static
+			Debug.Log(this);
+			Debug.Log(tetrisMaster);
             if(tetrisMaster == null) {
                 tetrisMaster = this;
             } else if(tetrisMaster != this) {
@@ -70,15 +72,20 @@ namespace Tetris {
             }
             SpawnBase(actualBaseInt);
             AddScore(1);
+
             yield return new WaitForSeconds(spawnPause);
             actualBase.setMoveObject(true);
+
+			//ich
+			reduceLive (1);
+
         }
 
         //Set the actuall CameraReference
-        public static void SetCamera(Camera _cam, CameraShake _shake) {
-            tetrisMaster.mainCam = _cam.transform;
-            tetrisMaster.cameraShake = _shake;
-        }
+//        public static void SetCamera(Camera _cam, CameraShake _shake) {
+//            tetrisMaster.mainCam = _cam.transform;
+//            tetrisMaster.cameraShake = _shake;
+//        }
 
         //Getter Setter
         static public void setPlayable(bool _value) {
@@ -92,5 +99,17 @@ namespace Tetris {
         static public void reduceLive(int _value) {
             tetrisMaster.gameHud.reduceLive(_value);
         }
+
+		//		 void win() {
+//
+//			if (_score => 10)<{
+
+//				winText.text = "you win";
+//			}			
+//		}
+
+
+
+
     }
 }

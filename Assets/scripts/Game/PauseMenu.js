@@ -80,9 +80,7 @@ GUI.skin.button.font = pauseMenuFont;
 			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 200,250,50), "Beautiful")){
 				QualitySettings.currentLevel = QualityLevel.Beautiful;
 			}
-			if(GUI.Button(Rect(Screen.width /2 + 150,Screen.height /2 + 250,250,50), "Fantastic")){
-				QualitySettings.currentLevel = QualityLevel.Fantastic;
-			}
+
 
 			if(Input.GetKeyDown("escape")){
 				showGraphicsDropDown = false;

@@ -10,6 +10,7 @@ namespace Tetris {
 
         void Start() {
             actualLive = heartList.Length;
+
         }
 
         //Reset the List ,set all to Active
@@ -29,6 +30,9 @@ namespace Tetris {
                 heartList[_value].gameObject.SetActive(false);
             else {
                 //Dead
+				//Application.LoadLevel (0);
+				Dying();
+
             }
         }
 
@@ -36,5 +40,16 @@ namespace Tetris {
         public int getLive() {
             return this.actualLive;
         }
+
+		void Dying (){
+			Application.LoadLevel (3);
+			//Application.LoadLevel ("PauseMenu");
+
+			}
+//
+//
+//		void StartGame (){
+//			Application.LoadLevel (0);
+//		}
     }
 }

@@ -5,16 +5,16 @@ namespace Tetris {
     public class TetrisPlayer : MonoBehaviour {
 
         //TestObject as Representation of the Player
-     //   private Rigidbody rb;
+     	private Rigidbody rb;
 
         void Start() {
-         //   rb = GetComponent<Rigidbody>();
+        	rb = GetComponent<Rigidbody>();
         }
 
         void OnCollisionEnter(Collision _other) {
 
             if(_other.gameObject.tag == "Obstacle") {
-                //Debug.Log("Hit");
+                Debug.Log("Hit");
                 TetrisMaster.reduceLive(1);
             }
         }
