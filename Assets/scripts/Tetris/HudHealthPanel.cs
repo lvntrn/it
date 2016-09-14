@@ -33,7 +33,10 @@ namespace Tetris {
                 //Dead
 				//Application.LoadLevel (0);
 				Dying();
+<<<<<<< HEAD
 				Debug.Log ("Dying");
+=======
+>>>>>>> d32356b70e833ee7f6ff862f9079df96d820f2e4
             }
         }
 

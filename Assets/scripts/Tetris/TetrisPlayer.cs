@@ -17,6 +17,7 @@ namespace Tetris {
 				reduceLive = true;
 			}
 
+<<<<<<< HEAD
 		}
 
 		void OnTriggerEnter(Collider _other){
@@ -66,6 +67,13 @@ namespace Tetris {
 			}
 
 		}
+=======
+            if(_other.gameObject.tag == "Obstacle") {
+                Debug.Log("Hit");
+                TetrisMaster.reduceLive(1);
+            }
+        }
+>>>>>>> d32356b70e833ee7f6ff862f9079df96d820f2e4
 
 	
     }
