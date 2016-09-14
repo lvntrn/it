@@ -56,7 +56,6 @@
      <Compile Include="Assets\scripts\SpaceBumb\ObjectMover.cs" />
      <Compile Include="Assets\scripts\SpaceBumb\RandomRotator.cs" />
      <Compile Include="Assets\scripts\SpaceBumb\ShipController.cs" />
-     <Compile Include="Assets\scripts\Tetris\BaseMover.cs" />
      <Compile Include="Assets\scripts\Tetris\HudHealthPanel.cs" />
      <Compile Include="Assets\scripts\Tetris\Moving.cs" />
      <Compile Include="Assets\scripts\Tetris\TetrisHud.cs" />

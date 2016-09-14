@@ -13,7 +13,7 @@ namespace Tetris {
         public Transform hud; //Hud Reference
         public float spawnPause; // SpawnDelay for new Obstacles
 
-        private BaseMover actualBase; // Reference to the new/Actual Obstacle
+//        private BaseMover actualBase; // Reference to the new/Actual Obstacle
         private int actualBaseInt = 0; //Int of the Actual Obstacle
         [HideInInspector]
         public bool playable = false; //Run GameLogic
@@ -46,8 +46,8 @@ namespace Tetris {
         }
 
         void Update() {
-            if(actualBase.transform.position.z < zDestruct) {
-            }
+//            if(actualBase.transform.position.z < zDestruct) {
+//            }
 
         }
 
@@ -61,7 +61,7 @@ namespace Tetris {
             }
 
             yield return new WaitForSeconds(spawnPause);
-            actualBase.setMoveObject(true);
+           // actualBase.setMoveObject(true);
 
         }
 

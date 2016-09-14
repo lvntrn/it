@@ -18,19 +18,15 @@ namespace Tetris {
 			}				
 		}
 
-		void OnTriggerEnter(Collider _other){
-			if (_other.gameObject.tag == "Wall") {
-				//leftwall++;
-				/*Debug.Log ("wand verlassen");*/
-				//Win ();
-			}
-		}
+//		void OnTriggerEnter(Collider _other){
+//			if (_other.gameObject.tag == "Wall") {
+//				//leftwall++;
+//				/*Debug.Log ("wand verlassen");*/
+//				//Win ();
+//			}
+//		}
 
-//		void Win(){
-//		if (leftwall == wallsTillWin) {
-//			Debug.Log ("Spiel gewonnen Hurra!");
-//		}
-//		}
+
 
 		void OnTriggerExit(Collider _other)
 		{
@@ -59,15 +55,14 @@ namespace Tetris {
 				}
 				if (leftwall == 7) {
 					Debug.Log ("Spiel gewonnen Hurra!");
+					Win ();
 				}					
 			}
 		}
-
-//            if(_other.gameObject.tag == "Obstacle") {
-//                Debug.Log("Hit");
-//                TetrisMaster.reduceLive(1);
-//            }
-        }				
+		void Win(){
+			Application.LoadLevel(4);
+		}
+      }				
     }
 
 
