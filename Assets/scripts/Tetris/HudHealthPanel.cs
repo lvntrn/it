@@ -32,7 +32,6 @@ namespace Tetris {
                 //Dead
 				//Application.LoadLevel (0);
 				Dying();
-
             }
         }
 

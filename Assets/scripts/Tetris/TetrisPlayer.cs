@@ -18,6 +18,8 @@ namespace Tetris {
                 TetrisMaster.reduceLive(1);
             }
         }
+
+	
     }
 }
 
