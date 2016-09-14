@@ -39,6 +39,7 @@ namespace Tetris {
             if(startCountDown <= 0) {
                 startCounterText.text = "Start";
                 StartCoroutine(HideCountDownText());
+				//Moving.Move ();
             } else {
                 StartCoroutine(CountDown());
             }

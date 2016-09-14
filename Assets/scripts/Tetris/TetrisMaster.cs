@@ -25,8 +25,8 @@ namespace Tetris {
 
         void Awake() {
             // Make this Static
-			Debug.Log(this);
-			Debug.Log(tetrisMaster);
+			//Debug.Log(this);
+//			Debug.Log(tetrisMaster);
             if(tetrisMaster == null) {
                 tetrisMaster = this;
             } else if(tetrisMaster != this) {
@@ -36,10 +36,7 @@ namespace Tetris {
             this.mainCam = Camera.main.transform;
             this.cameraShake = mainCam.GetComponent<CameraShake>();
             this.gameHud = hud.GetComponent<TetrisHud>();
-            //Load ();	
 
-            //Spawn the First Obstacle
-            SpawnBase(actualBaseInt);
         }
 
         void Start() {
@@ -49,20 +46,12 @@ namespace Tetris {
         }
 
         void Update() {
-            //Spawn a New Obstacle when the Old is Dead
             if(actualBase.transform.position.z < zDestruct) {
-                Destroy(actualBase.gameObject, 2f);
-                StartCoroutine(nextBase());
             }
 
         }
 
-        //Spawn a Obstacle and set Reference
-        public void SpawnBase(int _num) {
-            Transform _actualBase = Instantiate(baseList[_num], spawnPos, Quaternion.Euler(Vector3.zero)) as Transform;
-            actualBase = _actualBase.GetComponent<BaseMover>();
-            actualBase.setSpeed(incomeSpeed);
-        }
+
 
         //Spawn a Obstacle and set Score, set movedelay
         public IEnumerator nextBase() {
@@ -70,46 +59,29 @@ namespace Tetris {
             if(actualBaseInt >= baseList.Length) {
                 actualBaseInt = 0;
             }
-            SpawnBase(actualBaseInt);
-            AddScore(1);
 
             yield return new WaitForSeconds(spawnPause);
             actualBase.setMoveObject(true);
 
-			//ich
-			reduceLive (1);
-
         }
 
         //Set the actuall CameraReference
-//        public static void SetCamera(Camera _cam, CameraShake _shake) {
-//            tetrisMaster.mainCam = _cam.transform;
-//            tetrisMaster.cameraShake = _shake;
-//        }
+        public static void SetCamera(Camera _cam, CameraShake _shake) {
+            tetrisMaster.mainCam = _cam.transform;
+            tetrisMaster.cameraShake = _shake;
+        }
 
         //Getter Setter
         static public void setPlayable(bool _value) {
             tetrisMaster.playable = _value;
-            tetrisMaster.actualBase.setMoveObject(_value);
+//          
         }
-        public void AddScore(int _score) {
+        static public void AddScore(int _score) {
             tetrisMaster.gameHud.addScore(_score);
         }
 
         static public void reduceLive(int _value) {
             tetrisMaster.gameHud.reduceLive(_value);
         }
-
-		//		 void win() {
-//
-//			if (_score => 10)<{
-
-//				winText.text = "you win";
-//			}			
-//		}
-
-
-
-
     }
 }

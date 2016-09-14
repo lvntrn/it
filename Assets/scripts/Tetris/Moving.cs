@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class Moving : MonoBehaviour {
-	
-	public float speed = -2.0f;
+
+
+	public float speed = 15.0f;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,9 +16,8 @@ public class Moving : MonoBehaviour {
 		Move ();
 	}
 
-	private void Move(){
+	 public void Move(){
 		Vector3 moveAmount = Vector3.back * speed * Time.deltaTime;
-
 		transform.Translate (moveAmount);
 	}
 }
