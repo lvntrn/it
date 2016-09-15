@@ -53,7 +53,7 @@ namespace Tetris {
 					reduceLive = false;	
 
 				}
-				if (leftwall == 7) {
+				if (leftwall == 8) {
 					Debug.Log ("Spiel gewonnen Hurra!");
 					Win ();
 				}					
