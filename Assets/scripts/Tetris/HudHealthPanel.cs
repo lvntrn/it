@@ -31,9 +31,7 @@ namespace Tetris {
 			}
             else {
                 //Dead
-				//Application.LoadLevel (0);
 				Dying();
-
 				Debug.Log ("Dying");
 
             }
@@ -49,10 +47,5 @@ namespace Tetris {
 			//Application.LoadLevel ("PauseMenu");
 
 			}
-//
-//
-//		void StartGame (){
-//			Application.LoadLevel (0);
-//		}
     }
 }
