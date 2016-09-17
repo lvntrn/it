@@ -19,8 +19,8 @@ namespace Tetris {
 		public bool playable = false; //Run GameLogic
 
 		private TetrisHud gameHud;
-		private Transform mainCam;
-		private CameraShake cameraShake;
+//		private Transform mainCam;
+//		private CameraShake cameraShake;
 
 
 		void Awake() {
@@ -31,8 +31,8 @@ namespace Tetris {
 				Destroy(gameObject);
 			}
 
-			this.mainCam = Camera.main.transform;
-			this.cameraShake = mainCam.GetComponent<CameraShake>();
+			//this.mainCam = Camera.main.transform;
+			//this.cameraShake = mainCam.GetComponent<CameraShake>();
 			this.gameHud = hud.GetComponent<TetrisHud>();
 			//Load ();	
 
@@ -40,11 +40,11 @@ namespace Tetris {
 			SpawnBase(actualBaseInt);
 		}
 
-		void Start() {
-			if(this.cameraShake == null) {
-				Debug.LogError("No Camerashake reference!");
-			}
-		}
+//		void Start() {
+//			if(this.cameraShake == null) {
+//				//Debug.LogError("No Camerashake reference!");
+//			}
+//		}
 
 		void Update() {
 			//Spawn a New Obstacle when the Old is Dead
@@ -57,9 +57,12 @@ namespace Tetris {
 
 		//Spawn a Obstacle and set Reference
 		public void SpawnBase(int _num) {
-			Transform _actualBase = Instantiate(baseList[_num], spawnPos, Quaternion.Euler(Vector3.zero)) as Transform;
+			int spawnIndex = Random.Range (0, baseList.Length); //set the index number of the array randomly
+			Transform _actualBase = Instantiate(baseList[spawnIndex], spawnPos, Quaternion.Euler(Vector3.zero)) as Transform;
 			actualBase = _actualBase.GetComponent<BaseMover>();
 			actualBase.setSpeed(incomeSpeed);
+
+
 		}
 
 		//Spawn a Obstacle and set Score, set movedelay
@@ -75,10 +78,10 @@ namespace Tetris {
 		}
 
 		//Set the actuall CameraReference
-		public static void SetCamera(Camera _cam, CameraShake _shake) {
-			tetrisMaster.mainCam = _cam.transform;
-			tetrisMaster.cameraShake = _shake;
-		}
+//		public static void SetCamera(Camera _cam, CameraShake _shake) {
+//			tetrisMaster.mainCam = _cam.transform;
+//			tetrisMaster.cameraShake = _shake;
+//		}
 
 		//Getter Setter
 		static public void setPlayable(bool _value) {
