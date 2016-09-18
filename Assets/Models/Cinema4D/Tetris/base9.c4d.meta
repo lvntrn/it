@@ -11,18 +11,25 @@ ModelImporter:
     100006: EdgeSweep
     100008: Sweep
     100010: Sweep_Control
+    100012: BaseMain_1_2
+    100014: BaseMain_1_instance
     400000: //RootNode
     400002: BaseMain_1
     400004: CINEMA_4D_Editor
     400006: EdgeSweep
     400008: Sweep
     400010: Sweep_Control
+    400012: BaseMain_1_2
+    400014: BaseMain_1_instance
     2300000: BaseMain_1
     2300002: Sweep
+    2300004: BaseMain_1_2
     3300000: BaseMain_1
     3300002: Sweep
+    3300004: BaseMain_1_2
     4300000: BaseMain_1
     4300002: Sweep
+    4300004: BaseMain_1_2
     9500000: //RootNode
   materials:
     importMaterials: 1

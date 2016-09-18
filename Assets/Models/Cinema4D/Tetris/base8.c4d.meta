@@ -14,6 +14,8 @@ ModelImporter:
     100012: EdgeSweep
     100014: Sweep
     100016: Base_8
+    100018: Base_8_2
+    100020: Base_8_instance
     400000: _A1
     400002: //RootNode
     400004: BaseMain
@@ -23,18 +25,23 @@ ModelImporter:
     400012: EdgeSweep
     400014: Sweep
     400016: Base_8
+    400018: Base_8_2
+    400020: Base_8_instance
     2300000: _A1
     2300002: BaseMain
     2300004: Sweep
     2300006: Base_8
+    2300008: Base_8_2
     3300000: _A1
     3300002: BaseMain
     3300004: Sweep
     3300006: Base_8
+    3300008: Base_8_2
     4300000: BaseMain
     4300002: _A1
     4300004: Sweep
     4300006: Base_8
+    4300008: Base_8_2
     9500000: //RootNode
   materials:
     importMaterials: 1

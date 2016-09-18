@@ -3,7 +3,7 @@ guid: 5812382471dc3430288a1994503d221b
 timeCreated: 1454420072
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
     100002: Base_1
@@ -15,6 +15,8 @@ ModelImporter:
     100014: Base6
     100016: BaseMain
     100018: Zylinder
+    100020: Base6_2
+    100022: Base6_instance
     400000: //RootNode
     400002: Base_1
     400004: BooleBackup
@@ -25,21 +27,26 @@ ModelImporter:
     400014: Base6
     400016: BaseMain
     400018: Zylinder
+    400020: Base6_2
+    400022: Base6_instance
     2300000: Base_1
     2300002: Sweep
     2300004: Base6
     2300006: BaseMain
     2300008: Zylinder
+    2300010: Base6_2
     3300000: Base_1
     3300002: Sweep
     3300004: Base6
     3300006: BaseMain
     3300008: Zylinder
+    3300010: Base6_2
     4300000: Base_1
     4300002: Sweep
     4300004: BaseMain
     4300006: Zylinder
     4300008: Base6
+    4300010: Base6_2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -48,6 +55,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -55,9 +63,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -81,7 +89,6 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 3
   importAnimation: 1
@@ -89,12 +96,12 @@ ModelImporter:
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0

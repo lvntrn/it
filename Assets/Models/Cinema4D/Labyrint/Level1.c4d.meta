@@ -3,7 +3,7 @@ guid: 0cac216316875464eaacdebe845ab674
 timeCreated: 1451471416
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: Boden
     100002: Boden1
@@ -60,6 +60,29 @@ ModelImporter:
     100104: EdgeSweep_7
     100106: Rampe_1
     100108: "R\xF6hre_2"
+    100110: Boden2_instance
+    100112: Boden_4
+    100114: Boden_5
+    100116: Boden_6
+    100118: Boden_instance
+    100120: Boden_instance_2
+    100122: Boden_instance_3
+    100124: Bogen90_3
+    100126: Bogen90_instance
+    100128: EndPlattform_2
+    100130: EndPlattform_instance
+    100132: Rampe_3
+    100134: Rand1_3
+    100136: Rand1_4
+    100138: Rand1_instance
+    100140: Rand1_instance_2
+    100142: "R\xF6hre_3"
+    100144: "R\xF6hre_4"
+    100146: "R\xF6hre_instance"
+    100148: "R\xF6hre_instance_2"
+    100150: "W\xFCrfel_2"
+    100152: "W\xFCrfel_instance"
+    100154: "W\xFCrfel_instance_2"
     400000: Boden
     400002: Boden1
     400004: Boden1_1
@@ -115,6 +138,29 @@ ModelImporter:
     400104: EdgeSweep_7
     400106: Rampe_1
     400108: "R\xF6hre_2"
+    400110: Boden2_instance
+    400112: Boden_4
+    400114: Boden_5
+    400116: Boden_6
+    400118: Boden_instance
+    400120: Boden_instance_2
+    400122: Boden_instance_3
+    400124: Bogen90_3
+    400126: Bogen90_instance
+    400128: EndPlattform_2
+    400130: EndPlattform_instance
+    400132: Rampe_3
+    400134: Rand1_3
+    400136: Rand1_4
+    400138: Rand1_instance
+    400140: Rand1_instance_2
+    400142: "R\xF6hre_3"
+    400144: "R\xF6hre_4"
+    400146: "R\xF6hre_instance"
+    400148: "R\xF6hre_instance_2"
+    400150: "W\xFCrfel_2"
+    400152: "W\xFCrfel_instance"
+    400154: "W\xFCrfel_instance_2"
     2300000: Boden
     2300002: Boden2
     2300004: Boden2_2
@@ -140,6 +186,17 @@ ModelImporter:
     2300044: Sweep_9
     2300046: "W\xFCrfel"
     2300048: "R\xF6hre_2"
+    2300050: Boden_4
+    2300052: Boden_5
+    2300054: Boden_6
+    2300056: Bogen90_3
+    2300058: EndPlattform_2
+    2300060: Rampe_2
+    2300062: Rand1_3
+    2300064: Rand1_4
+    2300066: "R\xF6hre_3"
+    2300068: "R\xF6hre_4"
+    2300070: "W\xFCrfel_2"
     3300000: Boden
     3300002: Boden2
     3300004: Boden2_2
@@ -165,6 +222,17 @@ ModelImporter:
     3300044: Sweep_9
     3300046: "W\xFCrfel"
     3300048: "R\xF6hre_2"
+    3300050: Boden_4
+    3300052: Boden_5
+    3300054: Boden_6
+    3300056: Bogen90_3
+    3300058: EndPlattform_2
+    3300060: Rampe_2
+    3300062: Rand1_3
+    3300064: Rand1_4
+    3300066: "R\xF6hre_3"
+    3300068: "R\xF6hre_4"
+    3300070: "W\xFCrfel_2"
     4300000: Sweep
     4300002: "W\xFCrfel"
     4300004: Sweep_2
@@ -190,6 +258,17 @@ ModelImporter:
     4300044: Sweep_12
     4300046: "R\xF6hre"
     4300048: "R\xF6hre_2"
+    4300050: "W\xFCrfel_2"
+    4300052: EndPlattform_2
+    4300054: Rampe_2
+    4300056: Boden_4
+    4300058: Bogen90_3
+    4300060: Boden_5
+    4300062: Boden_6
+    4300064: Rand1_3
+    4300066: Rand1_4
+    4300068: "R\xF6hre_3"
+    4300070: "R\xF6hre_4"
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -198,6 +277,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -205,16 +285,16 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -231,20 +311,19 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
